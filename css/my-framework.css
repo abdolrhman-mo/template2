@@ -1,0 +1,131 @@
+/* Start My Framework */
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.r-p {
+    color: #888;
+    line-height: 1.6;
+}
+
+.h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+}
+
+/* Start Custom media queries */
+
+@media (max-width: 767px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container {
+        width: 520px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 320px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 220px;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 200px;
+    }
+}
+
+/* End Custom media queries */
+
+@media (max-width: 767px) {
+    .visible-xs {
+        display: block;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+        margin: auto;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 767px;
+        margin: auto;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+    .hidden-md {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 767px;
+        margin: auto;
+    }
+
+    .visible-lg {
+        display: block;
+    }
+
+    .hidden-lg {
+        display: none;
+    }
+}
+
+/* End My Framework */
